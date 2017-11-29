@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header section */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+nav span a {
+  color: seashell;
+  text-decoration: underline;
+  padding-right: 10px;
+}
+
+/* Main section */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 69px;
+}
+
+/* Our Mission */
+.our-mission {
+  background-image: url("images/img-mission-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  margin-bottom: 50px;
+}
+
+.our-mission span {
+  background-color: black;
+  padding: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* Tea of the Month */
+.best-tea {
+  display: block;
+  text-align: center;
+  width: 1000px;
+  margin-bottom: 80px;
+}
+
+.tea-image {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.tea-image img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.tea-image h4 {
+  margin: 0;
+}
+
+/* Locations */
+.locations {
+  background-image: url("images/img-locations-background.jpg");
+  display: block;
+  text-align: center;
+  width: 1200px;
+  height: 500px;
+}
+
+.addresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+.address p {
+  padding: 11px 0;
+}
+
+.address h3 {
+  padding: 3px 0;
+}
+
+/* Contact section */
+
+.contact {
+  display: block;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact h2 {
+  padding-bottom: 20px;
+}
+
+.contact h5 {
+  padding-bottom: 15px;
+}
+
+/* Footer section */
+
+footer {
+  display: block;
+  text-align: left;
+  padding-top: 25px;
+}
+
+footer h5 {
+  margin-left: 20px;
+}
