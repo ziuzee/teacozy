@@ -4,7 +4,6 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
 }
 
 /* Header section */
@@ -18,6 +17,7 @@ header {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  opacity: 0.9;
 }
 
 header img {
@@ -41,55 +41,71 @@ main {
   padding-top: 69px;
 }
 
-/* Our Mission */
-.our-mission {
+/* Mission */
+
+#mission {
   background-image: url("images/img-mission-background.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 700px;
   width: 1200px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  opacity: 0.9;
 }
 
-.our-mission span {
+.content {
   background-color: black;
-  padding: 10px auto;
-  width: 100%;
+  width: 1200px;
   text-align: center;
 }
 
-/* Tea of the Month */
-.best-tea {
+.content h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+
+/* Featured Tea */
+#featured-tea {
   display: block;
   text-align: center;
   width: 1000px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
+  opacity: 0.9;
 }
 
-.tea-image {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+.featured-tea h2, h4 {
+  margin: 0;
+  padding: 10px;
 }
 
-.tea-image img {
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image img {
   height: 200px;
   width: 300px;
-  margin: 10px;
+  margin: 15px 15px 0px 15px;
 }
 
-.tea-image h4 {
-  margin: 0;
-}
 
 /* Locations */
-.locations {
+#locations {
   background-image: url("images/img-locations-background.jpg");
   display: block;
   text-align: center;
   width: 1200px;
   height: 500px;
+  padding-top: 60px;
+  opacity: 1;
+}
+
+.locations h2 {
+  margin: 0;
 }
 
 .addresses {
@@ -125,14 +141,18 @@ justify-content: center;
   height: 200px;
   width: 100%;
   text-align: center;
+  opacity: 0.9;
 }
 
 .contact h2 {
+  margin: 0;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .contact h5 {
-  padding-bottom: 15px;
+  margin: 0;
+  padding: 15px;
 }
 
 /* Footer section */
@@ -141,8 +161,10 @@ footer {
   display: block;
   text-align: left;
   padding-top: 25px;
+  opacity: 0.9;
 }
 
 footer h5 {
-  margin-left: 20px;
+  margin: 0px;
+  padding: 0 0 30px 20px;
 }
